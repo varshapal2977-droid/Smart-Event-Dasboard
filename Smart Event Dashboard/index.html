@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Event Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="eventform">
+            <form id="eventForm">
+                <label for= "eventTitle">Event Title</label>
+                <input type=" text" id=" eventTitle"><br>
+                <Label for=" Event Date">Event Date</Label>
+                <input type=" Date">Event Date<br>
+                <Label for="category">Category</Label>
+                <select id="category">
+                    <option value="conference">Conference</option>
+                    <option value="Workshop">Workshop</option>
+                    <option value="meetup">Meetup</option>
+                    <option value="Webinar">Webinar</option>
+                    <option value="social">Social</option>
+
+                </select><br>
+                <label for="description">Description</label>
+                <textarea id="description" rows="4"></textarea><br>
+                <button type="submit">Add Event</button>
+            </form>
+
+        </div>
+        
+    </div>
+
+    </div>
+    <div class="events">
+        <button>clear all event</button>
+        <button>Add sample Events</button>
+        <div class="card">
+            <h3>Event Title</h3>
+            <p>Date: 2024-06-15</p>
+            <p>Category: Conference</p>
+            <p>Description: This is a sample event description.</p>
+            <button class="deletecard">Delete</button>
+        
+    </div>
+    <div class="DOM">
+        YOU CAN SEE THE DOM HERE</div>
+
+
+    </div>
+<script src="app.js"></script>
+</body>
+
+</html>

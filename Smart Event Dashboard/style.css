@@ -1,0 +1,83 @@
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+.card {
+    background: #f4f4f4;
+    padding: 10px;
+    border-radius: 6px;
+    width: 200px;
+    position: relative;
+}
+body {
+    font-family: Arial;
+    background: linear-gradient(to right, #437a97, #a224dc);
+    padding: 20px;
+}
+
+.title {
+    text-align: center;
+    color: white;
+}
+
+.main-container {
+    display: flex;
+    gap: 20px;
+}
+
+.form-card, .event-section {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    width: 50%;
+}
+
+input, select, textarea {
+    width: 100%;
+    margin: 8px 0;
+    padding: 8px;
+}
+
+button {
+    padding: 8px;
+    background: #7b4397;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.card {
+    background: #f4f4f4;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 6px;
+    position: relative;
+}
+
+.delete-btn {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background: rgb(0, 157, 255);
+}
+
+.completed {
+    background-color: #d4edda;
+    text-decoration: line-through;
+}
+
+.dom-demo {
+    background: white;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+.div {
+    background: #f4f4f4;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 6px;
+}
